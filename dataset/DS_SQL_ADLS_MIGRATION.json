@@ -1,0 +1,13 @@
+{
+	"name": "DS_SQL_ADLS_MIGRATION",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_ADLS_MIGRATION",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

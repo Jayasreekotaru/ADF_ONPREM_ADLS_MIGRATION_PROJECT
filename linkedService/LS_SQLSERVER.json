@@ -1,0 +1,17 @@
+{
+	"name": "LS_SQLSERVER",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": ".",
+			"database": "Jayasree",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "sa",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEY5QjVGMjJFLTZFMTEtNDg1NS1CQkE5LUI1QjI5MTA5NUEzN183NjI2NGNlZC04NmMyLTQ0ZmEtOWRiYS00OTA2YzcxNTMyMDciDQp9"
+		}
+	}
+}

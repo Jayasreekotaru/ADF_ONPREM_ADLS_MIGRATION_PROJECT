@@ -1,0 +1,20 @@
+{
+	"name": "DS_SQL_SINGTABLE_ADLS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_SINGTABLE_ADLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "sqloutputsingletable"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
