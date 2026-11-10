@@ -1,0 +1,117 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevlrproject"
+		},
+		"ADLS_SQLTABLES_PARQUET_accountKey": {
+			"value": ""
+		},
+		"ADLScsvtoADLS_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_SQL_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_DS_SQLSINTABLE_ADLS_password": {
+			"value": ""
+		},
+		"LS_SINK_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_SOURCE_EXCEL_accountKey": {
+			"value": ""
+		},
+		"LS_SQLPROCEDURE_ADLS_password": {
+			"value": ""
+		},
+		"LS_SQLSERVER_password": {
+			"value": ""
+		},
+		"LS_SQL_ADLS_accountKey": {
+			"value": ""
+		},
+		"LS_SQL_ADLS_MIGRATION_password": {
+			"value": ""
+		},
+		"LS_SQL_SINGTABLE_ADLS_accountKey": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"ADLS_SQLTABLES_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevlrsource.dfs.core.windows.net/"
+		},
+		"ADLScsvtoADLS_properties_typeProperties_url": {
+			"value": "https://adlsdevlrsource.dfs.core.windows.net/"
+		},
+		"LS_ADLS_SQL_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevlrsource.dfs.core.windows.net/"
+		},
+		"LS_DS_SQLSINTABLE_ADLS_properties_typeProperties_server": {
+			"value": "."
+		},
+		"LS_DS_SQLSINTABLE_ADLS_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"LS_DS_SQLSINTABLE_ADLS_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SINK_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevlrsink.dfs.core.windows.net/"
+		},
+		"LS_SOURCE_EXCEL_properties_typeProperties_url": {
+			"value": "https://adlsdevlrsource.dfs.core.windows.net/"
+		},
+		"LS_SQLPROCEDURE_ADLS_properties_typeProperties_server": {
+			"value": "."
+		},
+		"LS_SQLPROCEDURE_ADLS_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"LS_SQLPROCEDURE_ADLS_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQLSERVER_properties_typeProperties_server": {
+			"value": "."
+		},
+		"LS_SQLSERVER_properties_typeProperties_database": {
+			"value": "Jayasree"
+		},
+		"LS_SQLSERVER_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQL_ADLS_properties_typeProperties_url": {
+			"value": "https://adlsdevlrsource.dfs.core.windows.net/"
+		},
+		"LS_SQL_ADLS_MIGRATION_properties_typeProperties_server": {
+			"value": "."
+		},
+		"LS_SQL_ADLS_MIGRATION_properties_typeProperties_database": {
+			"value": "RetailDW_Dev"
+		},
+		"LS_SQL_ADLS_MIGRATION_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQL_SINGTABLE_ADLS_properties_typeProperties_url": {
+			"value": "https://adlsdevlrsource.dfs.core.windows.net/"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "."
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "DWQueue"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
