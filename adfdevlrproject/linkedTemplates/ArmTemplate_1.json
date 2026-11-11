@@ -850,6 +850,36 @@
 				"[concat(variables('factoryId'), '/datasets/DS_SQL_ADLS_MIGRATION')]",
 				"[concat(variables('factoryId'), '/pipelines/PL_MIGRATION_CHILD_PIPELINE')]"
 			]
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/ADFmigrationsqltoadls')]",
+			"type": "Microsoft.DataFactory/factories/triggers",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"annotations": [],
+				"runtimeState": "Started",
+				"pipelines": [
+					{
+						"pipelineReference": {
+							"referenceName": "PL_MIGRATION_PARENT_PIPELINE",
+							"type": "PipelineReference"
+						},
+						"parameters": {}
+					}
+				],
+				"type": "ScheduleTrigger",
+				"typeProperties": {
+					"recurrence": {
+						"frequency": "Minute",
+						"interval": 15,
+						"startTime": "2026-11-11T16:30:00",
+						"timeZone": "India Standard Time"
+					}
+				}
+			},
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/pipelines/PL_MIGRATION_PARENT_PIPELINE')]"
+			]
 		}
 	]
 }
